@@ -8,7 +8,7 @@ var merge = require('merge'), original, cloned;
 cli.setApp(__dirname + '/package.json');
 
 cli.parse({
-    perpage:  ['p', 'number of repos per page', 'number', 100],
+    perpage:  ['p', 'number of repos per page', 'number', 95],
     type: ['t', 'can be one of: all, public, private, forks, sources, member', 'string', 'all'],
     exclude: ['e', 'Exclude passed repos, comma separated', 'string'],
     only: ['o', 'Only clone passed repos, comma separated', 'string'],

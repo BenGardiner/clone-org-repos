@@ -6,7 +6,7 @@ describe('Organization', function() {
     before(function() {
         organization = new github.Organization({
             organization: 'foo',
-            perpage: 10,
+            perpage: 8,
             type: 'bar',
             regexp: true,
             only: 'foo-*',
